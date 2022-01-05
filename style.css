@@ -345,15 +345,51 @@ blockquote .svg-inline--fa{
   }
 
 }
-@media (max-width: 576px) {
+@media (max-width: 375px) {
+  .caption{
+    display: block;
+    margin: auto;
+    /*width: 80%;*/
+    /*max-width: 80%;*/
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+  }
+  .caption h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+  }
+  .caption h3{
+    font-size: 1rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 5rem;
+  }
+  .caption p{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  /*.fixed-background{*/
+  /*  padding-top: 2rem;*/
+  /*}*/
+
   .carousel-caption{
-    top: 30%;
+    top: 20%;
   }
   .carousel-caption h1{
     font-size: 250%;
   }
   .carousel-caption h3{
-    font-size: 110%;
+    font-size: 95%;
+  }
+  .carousel-caption h4{
+    font-size: 80%;
   }
   .carousel-caption .btn{
     font-size: 90%;
@@ -362,6 +398,11 @@ blockquote .svg-inline--fa{
   /*.carousel-indicators{*/
   /*  display: none;*/
   /*}*/
+  .btn-primary{
+    font-weight: normal;
+    font-size: smaller!important;
+    /*font-size: .01rem;*/
+  }
   .display-4{
     font-size: 160%;
   }
