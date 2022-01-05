@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+
+.btn-outline-secondary{
+  color: #9E1623;
+  background-color: white;
+}
+
+.btn-outline-secondary:hover{
+  color: white;
+  background-color: #9E1623;
+}
+
+
+/*NAVIGATION*/
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  background: rgba(52, 48, 48, 0.83) !important;
+  text-shadow: .1rem .1rem .5rem black;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #9E1623;
+  /*color: white;*/
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: white;
+}
+
+/*Landing Page*/
+
+.home-inner{
+  background-image: url(img/fixed2.jpg);
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+  /*-webkit-filter: blur(3px);*/
+  /*-ms-filter: blur(3px);*/
+  filter: blur(3px);
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg{
+  border-width: medium;
+  text-shadow: .1rem .1rem .8rem gray;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+
+}
+
+
+/*Carousel*/
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+  filter: blur(3px);
+
+}
+.carousel-caption{
+  position: absolute;
+  top: 60%;
+  transform: translateY(-30%);
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 3px 3px 10px #000;
+  padding-bottom: 1rem;
+}
+.carousel-caption h4{
+  font-size: 150%;
+  font-weight: 500;
+  text-shadow: 3px 3px 20px #000;
+  padding-bottom: 1rem;
+}
+
+
+
+/*Connect*/
+
+.social a{
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.fa-instagram{
+  color: #8a3ab9;
+}
+.fa-youtube{
+  color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+  color: #d5d5d5;
+}
+
+
+/*footer*/
+
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer a{
+  color: #d5d5d5;
+}
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.maps{
+  border-radius: 50%;
+}
+
+
+/*TEAM*/
+
+.card-img-top{
+  max-width: 50%;
+  display: block;
+  margin: auto;
+}
+.events-img-top{
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+
+.jumbotron{
+  margin-bottom: 0;
+  padding-top: 2rem 0 3.5rem;
+}
+
+h3.heading{
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+.heading-underline{
+  width: 3rem;
+  height: .2rem;
+  background-color: #9E1623;
+  margin: 0 auto 2rem;
+}
+
+
+/*Events*/
+
+.fixed{
+  background-image: url("img/banner4_c.jpeg");
+  z-index: -1;
+  filter: blur(3px);
+}
+
+.dark{
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+.fixed-background h3{
+  margin-bottom: 2rem;
+}
+.fixed-background p{
+  margin-top: 1.5rem;
+}
+
+.card-body_events{
+  color: black !important;
+  padding: 1.5rem;
+}
+
+.event-card{
+  /*border-radius: 10% !important;*/
+  padding-top: .5rem;
+}
+
+
+
+/*council*/
+
+.council img{
+  width: 100%;
+  border-radius: 50%;
+}
+blockquote .svg-inline--fa{
+  color: #9E1623;
+  margin: 1rem;
+}
+.council-hr{
+  border-top: .05rem solid #9E1623;;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+
+}
+@media (max-width: 768px) {
+  .carousel-caption{
+    top: 45%;
+  }
+  .carousel-caption h1{
+    font-size: 350%;
+  }
+  .carousel-caption h3{
+    font-size: 140%;
+    font-weight: 400;
+    /*text-shadow: 1px 1px 15px #000;*/
+    padding-bottom: .2rem;
+  }
+  .carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .display-4{
+    font-size: 200%;
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+
+  .council img{
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+
+
+  }
+
+  .card-img-top{
+    max-width: 70%;
+    max-height: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+@media (max-width: 576px) {
+  .carousel-caption{
+    top: 40%;
+  }
+  .carousel-caption h1{
+    font-size: 250%;
+  }
+  .carousel-caption h3{
+    font-size: 110%;
+  }
+  .carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  /*.carousel-indicators{*/
+  /*  display: none;*/
+  /*}*/
+  .display-4{
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+}
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
