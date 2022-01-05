@@ -293,6 +293,12 @@ blockquote .svg-inline--fa{
 }
 
 
+.carousel{
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border: solid 1px #9E1623;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -300,15 +306,25 @@ blockquote .svg-inline--fa{
     font-size: 4em;
     padding: 2rem;
   }
-  
+
   .caption p{
     margin-left: 1rem !important;
     margin-right: 1rem !important;
   }
 
+  .carousel{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 
 }
 @media (max-width: 768px) {
+
+  .carousel{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .carousel-caption{
     top: 30%;
   }
@@ -356,6 +372,12 @@ blockquote .svg-inline--fa{
 
 }
 @media (max-width: 600px) {
+
+  .carousel{
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+
   .caption{
     display: block;
     margin: auto;
