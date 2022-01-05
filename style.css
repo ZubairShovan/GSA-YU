@@ -345,7 +345,7 @@ blockquote .svg-inline--fa{
   }
 
 }
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .caption{
     display: block;
     margin: auto;
