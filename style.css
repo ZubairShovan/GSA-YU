@@ -186,6 +186,7 @@ hr.light-100{
 /*TEAM*/
 
 .card-img-top{
+  padding-top: 2rem;
   max-width: 50%;
   display: block;
   margin: auto;
@@ -371,7 +372,29 @@ blockquote .svg-inline--fa{
   }
 
 }
+
+/*@media (max-width: 410px) {*/
+/*  .caption{*/
+/*    top: 20%;*/
+/*  }*/
+/*  .caption h1 {*/
+/*    font-size: 1.6rem;*/
+/*  }*/
+/*  .caption h3{*/
+/*    font-size: 1rem;*/
+/*  }*/
+/*  .caption p{*/
+/*    margin-left: 1rem !important;*/
+/*    margin-right: 1rem !important;*/
+/*  }*/
+/*}*/
+
+
 @media (max-width: 600px) {
+
+  .card-img-top{
+    max-width: 50%;
+  }
 
   .carousel{
     margin-left: .5rem;
