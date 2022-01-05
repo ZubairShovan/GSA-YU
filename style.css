@@ -300,6 +300,12 @@ blockquote .svg-inline--fa{
     font-size: 4em;
     padding: 2rem;
   }
+  
+  .caption p{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+
 
 }
 @media (max-width: 768px) {
@@ -318,6 +324,10 @@ blockquote .svg-inline--fa{
   .carousel-caption .btn{
     font-size: 95%;
     padding: 8px 14px;
+  }
+  .caption p{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
 
   .display-4{
@@ -370,6 +380,8 @@ blockquote .svg-inline--fa{
     padding-bottom: 5rem;
   }
   .caption p{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-bottom: 5rem;
