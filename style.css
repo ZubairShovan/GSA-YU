@@ -64,6 +64,20 @@ body{
   /*-ms-filter: blur(3px);*/
   filter: blur(3px);
 }
+
+.faq{
+  top: 10% !important;
+  /*padding-top: 5rem;*/
+}
+
+.faq h1{
+  color: #9E1623;
+  font-size: 2.5rem !important;
+  text-shadow: .1rem .1rem .8rem white !important;
+}
+
+
+
 .caption{
   width: 100%;
   max-width: 100%;
@@ -301,6 +315,66 @@ blockquote .svg-inline--fa{
 }
 
 
+/* FAQ */
+
+.faqHeader {
+  font-size: 27px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+  font-family: 'Glyphicons Halflings';
+  content: "\e072"; /* "play" icon */
+  float: right;
+  color: #9E1623;
+  font-size: 1.5rem;
+  line-height: 22px;
+  /*padding: 3px;*/
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #454444;
+}
+
+.panel-title{
+  line-height: 22px !important;
+}
+
+.panel-title a:hover{
+  color: #9E1623;
+}
+
+hr.red{
+  border-top: 2px solid #9E1623;
+  width: 100%;
+  /*padding-top: 2rem;*/
+  /*margin-top: 1rem;*/
+  margin-bottom: -1rem;
+}
+
+
+@media (max-width: 600px) {
+  .panel-title{
+    font-size: 1.5rem !important;
+    line-height: 22px !important;
+  }
+}
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
@@ -320,6 +394,11 @@ blockquote .svg-inline--fa{
 
 }
 @media (max-width: 768px) {
+
+  .faq h1{
+    font-size: 2rem !important;
+  }
+
 
   .carousel{
     margin-left: 1rem;
@@ -391,6 +470,11 @@ blockquote .svg-inline--fa{
 
 
 @media (max-width: 600px) {
+
+  .faq h1{
+    font-size: 1.3rem !important;
+    letter-spacing: 0rem !important;
+  }
 
   .card-img-top{
     max-width: 50%;
